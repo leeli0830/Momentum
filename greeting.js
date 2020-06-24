@@ -49,6 +49,7 @@ function loadName() {
   }
 }
 
+// This function checks local time and returns corresponding greeting message.
 function getTimeGreeting() {
   const date = new Date();
   const hours = date.getHours();
@@ -61,8 +62,6 @@ function getTimeGreeting() {
     return "Good Evening";
   }
 }
-
-console.log(getTime());
 
 // This function calls loadName();
 function init() {
